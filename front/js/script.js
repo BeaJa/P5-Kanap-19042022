@@ -14,7 +14,7 @@ fetch("http://localhost:3000/api/products")
       itemsElt.innerHTML += `
             <a href="">
                 <article>
-                    <img src=".../product01.jpg" alt="Lorem ipsum dolor sit amet, Kanap name1">
+                    <img src="${product.imageUrl}"  alt="${product.altTxt}">
                     <h3 class="productName">${product.name}</h3>
                     <p class="productDescription">${product.description}</p>
                 </article>
